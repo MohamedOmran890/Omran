@@ -20,7 +20,9 @@ int main()
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     //freopen("time.in","r",stdin);
     int num;
+    int num2;
+    cin>>num2;
     cin>>num;
-    cout<<num;
+    cout<<num+num2;
     return 0;
 }
